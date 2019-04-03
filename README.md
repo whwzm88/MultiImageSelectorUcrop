@@ -1,6 +1,6 @@
 # MultiImageSelectorUcrop
 
-##简介
+## 简介
 本项目是将https://github.com/lovetuzitong/MultiImageSelector(图片选择框架)
 和https://github.com/Yalantis/uCrop(图片裁切框架)进行了整合
 在以上框架原有的功能基础上

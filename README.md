@@ -1,8 +1,8 @@
 # MultiImageSelectorUcrop
 
 ## 简介
-本项目是将https://github.com/lovetuzitong/MultiImageSelector(图片选择框架)
-和https://github.com/Yalantis/uCrop(图片裁切框架)进行了整合
+本项目是将https://github.com/lovetuzitong/MultiImageSelector | https://github.com/Yalantis/uCrop 
+(图片选择框架)和(图片裁切框架)进行了整合
 在以上框架原有的功能基础上
 新增
 图片选择时预览
@@ -39,16 +39,24 @@
 
 #### 4、API调用
 			MultiImageSelector.create()
+				//是否显示拍照
 				.showCamera(true) // show camera or not. true by default
-				//编辑时只能选择一张图,添加时最多选9张
+				//可选图片数量
 				.count(9 - imgs.size()) // max select image size, 9 by default. used width #.multi()
+				//多图选择 单图为single
 				.multi()// single mode
 				.origin(new ArrayList<String>()) // original select data set, used width #.multi()
+				//是否开启裁切
 				.ucrop(false)
+				//裁切时回显,调试用,目前不可用
 				.cropShow(true)
+				//图片最大的宽度或高度(目前最大宽度和高度一个参数控制)
 				.maxSide(2000)
+				//最小的图片裁切比例
 				.minRatio("16/9")
+				//最大的图片裁切比例
 				.maxRatio("3/4")
+				//图片的裁切质量
 				.dpi(70)
 				.start(MainActivity.this, SELECT_PHOTO_DATA);
 				

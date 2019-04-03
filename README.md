@@ -3,15 +3,15 @@
 ## 简介
 本项目是将https://github.com/lovetuzitong/MultiImageSelector | https://github.com/Yalantis/uCrop 
 
-(图片选择框架)和(图片裁切框架)进行了整合
-在以上框架原有的功能基础上
-新增
-图片选择时预览
-不可视化裁切
-多图选择裁切
+(图片选择框架)和(图片裁切框架)进行了整合  
+在以上框架原有的功能基础上  
+新增  
+图片选择时预览  
+不可视化裁切  
+多图选择裁切  
 
-目前的缺点是
-同事选择多张大图片裁切时,会出现耗时长的问题,后续将持续优化改进
+目前的缺点是  
+同事选择多张大图片裁切时,会出现耗时长的问题,后续将持续优化改进  
 
 
 ## 如何使用
@@ -75,6 +75,6 @@
 			}
 				
 ## 混淆配置
--dontwarn com.yalantis.ucrop**
--keep class com.yalantis.ucrop** { *; }
--keep interface com.yalantis.ucrop** { *; }
+-dontwarn com.yalantis.ucrop**  
+-keep class com.yalantis.ucrop** { *; }  
+-keep interface com.yalantis.ucrop** { *; }  

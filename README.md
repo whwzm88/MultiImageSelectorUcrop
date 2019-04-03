@@ -13,6 +13,14 @@
 目前的缺点是  
 同事选择多张大图片裁切时,会出现耗时长的问题,后续将持续优化改进  
 
+## 添加依赖
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+implementation 'com.github.whwzm88:MultiImageSelectorUcrop:master-SNAPSHOT'
 
 ## 如何使用
 #### 1、添加权限

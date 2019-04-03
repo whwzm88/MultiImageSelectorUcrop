@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--传递外部存储设备根目录下的任意一张图片了-->
+    <external-path path="." name="camera_photos" />
+</paths>

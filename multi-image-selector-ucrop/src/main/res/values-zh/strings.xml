@@ -1,0 +1,17 @@
+<resources>
+    <string name="mis_folder_all">所有照片</string>
+    <string name="mis_preview">预览</string>
+    <string name="mis_msg_no_camera">没有系统相机</string>
+    <string name="mis_msg_amount_limit">已经达到最高选择数量</string>
+    <string name="mis_action_done">完成</string>
+    <string name="mis_photo_unit">张</string>
+    <string name="mis_tip_take_photo">拍摄照片</string>
+    <string name="mis_error_image_not_exist">图片错误</string>
+    <string name="mis_error_no_permission">无权限</string>
+    <string name="mis_permission_dialog_title">使用提醒</string>
+    <string name="mis_permission_dialog_ok">好</string>
+    <string name="mis_permission_dialog_cancel">拒绝</string>
+    <string name="mis_permission_rationale">为保证您正常的使用此项功能,需求获取您的存储空间使用权限,请允许</string>
+    <string name="mis_permission_rationale_write_storage">为保证您正常的使用此项功能,需求获取您的相机使用权限,请允许</string>
+    <string name="mis_open_camera_permission">未取得您的相机、存储空间使用权限，此功能无法使用。请前往应用权限设置打开权限。</string>
+</resources>
